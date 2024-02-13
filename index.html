@@ -69,23 +69,26 @@
         <div class="card w-96 bg-zinc-200">
           <figure class="py-2">
             <img
-              src="./images/rectangle.png"
+              src="./images/ellipse.png"
               alt="Shoes" />
           </figure>
           <div class="card-body">
-            <h2 class="text-2xl text-center">Rectangle!</h2>
-            <p class="text-center">Area (A) = B * H</p>
+            <h2 class="text-2xl text-center">Ellipse!</h2>
+            <p class="text-center">Area (A) = b * h * 3.14</p>
             <div>
-                <p class="text-center">Rectangle (A) = <span id="rectangle-result">0</span></p>
+                <p class="text-center">Pie (A) = <span id="rectangle-result">0</span></p>
+            </div>
+            <div>
+                <p class="text-center">Pie result : <span id="pie-result">0</span></p>
             </div>
            <div class="flex gap-2">
-            <input class="w-20 px-1" type="text" name="" placeholder="width" id="rectangle-base">
+            <input class="w-20 px-1" type="text" name="" placeholder="width" id="pei-base">
             <span>cm</span>
-            <input class="w-20 px-1" type="text" name="" placeholder="height" id="rectangle-height">
+            <input class="w-20 px-1" type="text" name="" placeholder="height" id="pei-height">
             <span>cm</span>
            </div>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary w-full">Buy Now</button>
+              <button id="pe-btn" class="btn btn-info w-full">Calculate</button>
             </div>
           </div>
         </div>
@@ -95,5 +98,6 @@
     <footer></footer>
     <script src="js/rectangle.js"></script>
     <script src="js/triangle.js"></script>
+    <script src="pe.js"></script>
   </body>
 </html>
